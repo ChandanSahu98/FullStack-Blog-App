@@ -4,7 +4,7 @@ import { Context } from "../../context/Context";
 import "./topbar.css"
 
 function TopBar() {
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://handsome-hen-stole.cyclic.app/images/"
   const {user, dispatch} = useContext(Context);
 
   const handleLogout = () => {

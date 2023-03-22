@@ -5,7 +5,7 @@ import axios from "axios";
 import { Context } from "../../context/Context";
 
 export default function SinglePost() {
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://handsome-hen-stole.cyclic.app/images/"
   const { user } = useContext(Context);
   const location = useLocation();
   const path = location.pathname.split("/")[2];
